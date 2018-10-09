@@ -46,14 +46,23 @@ class Main
          *          Copy the elements of ar1 into ar2.
          */
         int [] ar2;
-        ar2 = new int [n]; 
+        ar2 = ar1;
+        ar2 = ar1.clone();
+        for (int i=0; i<ar1.length; i++) {
+            System.out.println("ar["+i+"] = "+ar2[i] );
+        }
        
         
         
         /* 
          * Task 3. Add 1 to each element in ar1.  Print it out below
          */
-        
+        for (int i=0; i<ar1.length; i++)
+            ar1[i] = i+1;
+        for (int i=0; i<ar1.length; i++) 
+            System.out.println("ar["+i+"] = "+ar1[i] );
+            
+            
 
         
         
