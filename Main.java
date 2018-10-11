@@ -75,6 +75,20 @@ class Main
          *         ar1: 1 2 3
          *         ar3: 1 2 3 0 1 2 3
          */
+        System.out.println("* Task 4 *");
+        int[] ar3 = new int[ ar1.length *2 ];
+        for (int i=0 ; i< ar1.length ; i++)
+        {
+            ar3[i]=ar1[i];
+        }
+        
+        for (int i=0 ; i<ar1.length ; i++)
+        {
+            ar3[i+ar1.length]=ar1[i];
+        }
+        
+        for (int i=0 ; i<ar3.length ; i++)
+            System.out.println("ar3[" + i + "] = "+ar3[i]);
         
         
         /*
