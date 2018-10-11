@@ -29,7 +29,7 @@ class Main
          * Task 1.  Create an array of integers from 0 to n-1
          *          call this array ar1.  Print it out below.
          */
-        System.out.println("*** PRINTING ar1 *");
+        System.out.println("* Task 1 *");
         int [] ar1;
         ar1 = new int [n];
         
@@ -45,6 +45,7 @@ class Main
          * Task 2.  Create a new array called ar2.
          *          Copy the elements of ar1 into ar2.
          */
+        System.out.println("* Task 2 *");
         int [] ar2;
         ar2 = ar1;
         ar2 = ar1.clone();
@@ -57,6 +58,7 @@ class Main
         /* 
          * Task 3. Add 1 to each element in ar1.  Print it out below
          */
+        System.out.println("* Task 3 *");
         for (int i=0; i<ar1.length; i++)
             ar1[i] = i+1;
         for (int i=0; i<ar1.length; i++) 
